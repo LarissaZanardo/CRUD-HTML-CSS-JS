@@ -1,0 +1,8 @@
+ <tbody>
+ <tr> <!--Linha-->
+     <td>2</td> <!--Celula da tabela-->
+     <td>Camisa</td>
+     <td>10</td>
+     <td>60</td>   
+</tr>    
+</tbody>

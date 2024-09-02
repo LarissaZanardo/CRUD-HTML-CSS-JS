@@ -1,0 +1,13 @@
+O que é bootStrap
+desenvolvimento web mais rapido e facil
+
+
+pega um codigo que ja esta pronto e usa
+
+modelos baseador em html e css para usar
+
+design responsivo com facilidade *sites que se ajustam*
+
+BAIXE O BOOTSTRAP 
+INLCUIR BOOTSTRAP 4 DE UM CDN
+

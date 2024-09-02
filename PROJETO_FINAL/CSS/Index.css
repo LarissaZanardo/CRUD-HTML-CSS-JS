@@ -1,0 +1,36 @@
+/*resetando o css base do navegador*/
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*elesmentos respeitem a borda*/
+    font-family: "Quicksand", sans-serif;}
+
+
+
+table { 
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+button {
+    margin-top: 100px;
+    float: right;
+
+}
+
+h2 {
+    padding-top: 15px;
+   
+
+}
+
+thead {
+    background-color: #ddd;
+
+}
+
+.container {
+    padding: 15px;
+
+}

@@ -1,0 +1,87 @@
+/*resetando o css base do navegador*/
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*elesmentos respeitem a borda*/
+    font-family: "Quicksand", sans-serif;
+
+
+}
+
+/*Importando a fonte do google*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+h1{
+    color:#1b47e3;
+    font-size: 42; /*tamanho da fonte*/
+
+}
+
+.campologin{ /* referencia a div campo login */
+    width: 250px;
+    border:1px solid #ddd;
+    margin: auto; /* para centralizar a div no meio da tela */
+    margin-top: 50px; /*Margem do topo*/
+    padding: 25px; /*espaços*/
+    text-align: center; /*Centraliza os textos*/
+    display: table; /*o container tem que crescer de acordo com os elementos*/
+    padding-top: 5px;
+    border-radius: 8px; /*arredondar a bordar*/
+}
+
+input {
+width:100%; /*para ocupar o largura de 100% do local*/
+padding: 8px; /*aumentar o campo de inserir login*/
+box-sizing: border-box; /*respeitar a borda*/
+outline: none; /*tira marcação base do input*/
+margin-bottom: 5px ;
+
+
+
+}
+
+/*quando clicar no input*/
+input:focus {
+    border:2px solid #1b47e3 ;
+    
+}
+
+button {
+    width:100%;
+    padding: 10px;
+    margin-top: 20;
+    background-color: #1b47e3;
+    border: none;
+    color:#fff;
+    outline: none; /*tira marcação base do input*/
+    margin-bottom: 20px; /* para empurrar o esqueci minha senha*/
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+
+
+}
+
+button:hover {  /*efeito para escurecer botao ao passa o mouse e virar mouse*/
+
+
+    cursor:pointer;
+    background-color: #163aba;
+}
+
+/*A classe grupo tem */
+.grupo{
+    text-align: start;
+    margin-bottom: 15px;
+    
+
+
+}
+
+a {
+    color: #1b47e3;
+    text-decoration: none;
+    float: right; /*colocar o esqueci minha senha a direita*/
+}
+
+/*Se quiser aplicar css por ID #ID*/

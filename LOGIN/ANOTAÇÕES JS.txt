@@ -1,0 +1,12 @@
+.toLowerCase() --- // formata os campos para minusculo
+.toUpperCase() --- // formata os campos para maiusculo 
+.trim().toUpperCase() --- // remove espaço que o usuario digitar
+
+array
+
+var numeros = []
+
+numeros.push (adicionar numeros no array)
+numeros.pop (retirar numeros do array remove o ultimo)
+numeros.reverse () (inverto o array
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br"> </html>
+<head>
+    <meta charset="UTF-8"> <!-- para entender carcteres especiais -->
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge"> <!-- para abrir no edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adapta para quando é celular -->
+
+    <title> Verfied by GS1 | GS1 Brasil </title>  
+    <!-- Dentro do head tem que colocar a chamada para css -->
+    <link rel="stylesheet" href="./CSS/TelaLogin.css"> <!-- caminho para encontrar o arquivo css-->
+
+</head>
+
+<body>
+ <div class="campologin">  
+        <!-- Logo do sistema -->
+        <div>
+            <h1>Login</h1>
+        </div>
+
+        <div class="grupo"> <!-- dividir campos --> <!-- para no css conseguir diferenciar-->
+            <label for="email"> Email </label><br>   <!--label é para colocar o texto id o campo for o for é para indicar de qual campo é label-->
+            <input id="email" type="text" placeholder="xxxx@xxxx.com"><br>
+            
+        </div>
+
+        <div class="grupo">
+            <label for="senha"> Senha </label><br>   <!--label é para colocar o texto id o campo for o for é para indicar de qual campo é label-->
+            <input id="senha" type="password" placeholder="xxxxx"><br>
+        </div>
+
+            <!-- Criar botão de entrar -->
+            <button id="btn-entrar">Entrar</button>
+        
+            <!-- Criar link esqueci minha senha tag a para links -->
+            <a href="colocarlink">Esqueci minha senha</a>
+        
+ 
+    </div> 
+
+    <script src="./JS/TelaLogin.js"></script> <!--importar o javascript para ser executado-->
+
+</body>

@@ -1,0 +1,11 @@
+HTTP
+VERBOS
+GET = CONSULTA OBTEM INFORMAÇÕES
+POST = CADASTRAR ALGO OU ADICIONAR ALGUMA COISA INSERIR ALGUMA INFORMAÇÃO
+PUT = Serve para atualizar um elemento (atualizao elemento inteiro)
+
+
+post cadastrar ex produto
+get devolve produto
+put altere
+delete : Serve para deletar alguma coisa de algum lugar
